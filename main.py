@@ -14,8 +14,8 @@ pygame.display.set_caption(game_title)
 
 clock = pygame.time.Clock()
 
-# plain_color_surface = pygame.Surface(width, height)
-plain_color_surface = pygame.Surface(100, 200)
+# plain_color_surface = pygame.Surface((width, height))
+plain_color_surface = pygame.Surface((100, 200))
 # plain_color_surface.fill(color)
 plain_color_surface.fill("Blue")
 
